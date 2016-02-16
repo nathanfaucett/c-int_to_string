@@ -22,5 +22,5 @@ install:
 	clib install
 
 clean:
-	$(RM) ./test/main *.o *~
+	$(RM) ./test/main **/*.o **/*~
 	$(RM) -rf deps
