@@ -2,7 +2,7 @@
     "name": "int_to_string",
     "version": "0.0.1",
     "repo": "nathanfaucett/c-int_to_string",
-    "description": "integer to string conversions",
+    "description": "integer to string conversions and macros",
     "keywords": ["types"],
     "license": "MIT",
     "src": [

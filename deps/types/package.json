@@ -1,9 +1,0 @@
-{
-  "name": "types",
-  "version": "0.0.1",
-  "repo": "nathanfaucett/c-types",
-  "description": "better types for c",
-  "keywords": ["types"],
-  "license": "MIT",
-  "src": ["lib.h"]
-}
