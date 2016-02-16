@@ -1,0 +1,17 @@
+{
+    "name": "int_to_string",
+    "version": "0.0.1",
+    "repo": "nathanfaucett/c-int_to_string",
+    "description": "integer to string conversions",
+    "keywords": ["types"],
+    "license": "MIT",
+    "src": [
+        "src/lib.h",
+        "src/lib.c",
+        "lib.h",
+        "lib.c"
+    ],
+    "dependencies": {
+        "nathanfaucett/c-types": "0.0.1"
+    }
+}
