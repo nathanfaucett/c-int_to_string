@@ -7,13 +7,16 @@ DEPS = ./deps
 C_FLAGS := -ansi $(OPT_LVL) -I$(DEPS) -Wall
 
 
-all: run_test
+all: install build_test run_test
 
-run_test: build_test
+run_test:
 	./test/main
 
-build_test: install
-	$(CC) $(C_FLAGS) ./test/main.c -o ./test/main
+build_test: build_lib.o
+	$(CC) $(C_FLAGS) ./test/lib.o ./test/main.c -o ./test/main
+
+build_lib.o:
+	$(CC) $(C_FLAGS) -c ./lib.c -o ./test/lib.o
 
 install:
 	clib install
