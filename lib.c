@@ -2,7 +2,8 @@
 #define __INT_TO_STRING_C__
 
 
-#include "./src/lib.c"
+INT_TO_STRING_SRC(intsize);
+UINT_TO_STRING_SRC(uintsize);
 
 
 #endif
